@@ -1,0 +1,430 @@
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Raleway|Dancing+Script" rel="stylesheet">
+
+media screen and (min-width:481px) {	  
+       	body {
+	    background-image: url(https://i.pinimg.com/736x/0f/30/ac/0f30acb683ad19fee08199483fb0367e--winter-nature-photography-mountain-photography.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center top;
+            background-attachment: fixed;
+            background-color: gray;
+        }
+	
+	h1 {
+	    font-family: 'Dancing Script', sans-serif;
+	    font-size: 4.5em;
+	    color: rgb(0, 230, 184);
+	    text-align: center; 
+	   }
+	
+	h2 {
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 2.250em; 
+	    color: white; 
+	    text-align: center; 
+	    border-bottom: 1px solid white;
+	}
+	
+	h3 { 
+	    font-family: 'Open Sans', sans-serif;
+	    color: white;
+	}
+	
+	h4 {
+	    font-family: 'Raleway', sans-serif;
+	 }
+	 
+	#muir {
+	    text-align: center; 
+	}
+	
+	h5 {
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+	
+	p {
+	    font-family: 'Open Sans', sans-serif;
+	}
+	
+	
+	thead {
+	    font-family: 'Raleway', sans-serif;
+	}
+	
+		
+	tbody {
+	    font-family: 'Open Sans', sans-serif; 
+	}
+	
+	#calling {
+	    border-bottom: none; 
+	}
+	
+	#intro-box {
+	    width: 600px; 
+	    margin: auto;  
+	    font-size: 36px; 
+	}
+	
+	#intro-box h2 {
+	    font-family: 'Dancing Script', sans-serif;
+	    font-size: 36px;
+	    color: rgb(0, 230, 184);
+	    text-align: center; 
+	}
+	
+	.welcome-text {
+	    color: white;
+	    text-align: center;
+	    font-size: 24px;   
+	}
+	
+	#intro-pic1 {
+	     width: 30%;
+	     margin-left: 4.0em; 
+	     margin-right: 0;
+	     margin-top: 0;
+	     margin-bottom: 9.0em;	           
+	 }
+	
+	#intro-pic2 {
+	     width: 30%; 
+	     margin-left: 1.0em;    
+	     margin-right: 1.0em;  
+	}
+	
+	#intro-pic3 {
+	     width: 30%; 
+	     margin-right: 2.0em; 
+	     margin-right: 0;
+	     margin-top: 0;
+	     margin-bottom: 9.0em;
+	}
+	
+	ul {
+    	    list-style-type: none;
+    	    margin-top: 0; 
+    	    margin-bottom: 0;
+    	    margin-left: 14em;
+    	    margin-right: 5em;
+    	    padding: 0;
+    	    overflow: hidden;
+    	}
+
+	li {
+    	    float: left; 
+    	    font-family: Raleway; 
+	}
+
+	li a {
+	    display: block;
+    	    color: white;
+   	    text-align: center;
+    	    padding: 14px 16px;
+    	    text-decoration: none;
+	}
+
+	li a:hover {
+    	    background-color: rgb(237,185,46);
+	}
+	
+	#wedding-details-box {
+	    position: relative; 
+	    z-index: 1; 
+	    text-align: center;
+	    margin: auto;  
+	    max-width: 80%; 
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 50.0em; 
+	    background-color: rgba(247, 247, 247, 0.5); 
+	}
+	
+	#date-time {
+	    position: absolute;
+	    left: 12.0em; 
+	    top: 18.0em; 
+	}
+	
+	#map {
+	    float: right;
+	    border: 1px solid white;  
+	    padding: 1em; 	    
+	}
+	
+	#map_after {
+	     width: 33%;
+	     margin: auto; 
+	     border: 1px solid white;
+	     padding: 1.0em;
+	}
+	
+	#location {
+	    position: absolute;
+	    width: 40%; 
+	    left: 48.0em;
+	    top: 35.0em;  
+	}
+	
+	#parking {
+	    position: absolute;
+	    width: 40%;	 
+	    top: 35.0em;     
+	}
+	
+	#attire {
+	    position: absolute;
+	    top: 58.0em;
+	    left: 10em; 
+	    width: 75%;  
+	    	    
+	}
+	
+	#event-schedule-box {
+	    text-align: center; 
+	    margin: auto; 
+	    max-width: 80%;  
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 16.0em; 
+	    background-color: rgba(247, 247, 247, 0.5);
+	}
+	
+	th{
+	    color: rgb(0,230,184);
+	}
+	
+	td{
+	    text-align: left; 
+	}
+	
+	#schedule {
+	    position: absolute;
+	    left: 35.0em; 
+	    
+	}
+	
+	#after-party-box {
+	    text-align: center; 
+	    margin: auto; 
+	    max-width: 80%;  
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 2.0em; 
+	    background-color: rgba(247, 247, 247, 0.5);
+	}
+	
+	#el-pacifico {
+	    border: 1px solid white;  
+	    padding: 1em; 
+	}
+	
+	#accommodations-box {
+	    text-align: center;
+	    margin: auto; 
+	    max-width: 80%;  
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 2.0em; 
+	    background-color: rgba(247, 247, 247, 0.5);	
+	}
+	
+	#travel-transport-box {
+	    text-align: center; 
+	    margin: auto; 
+	    max-width: 80%;  
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 2.0em; 
+	    background-color: rgba(247, 247, 247, 0.5);
+	}
+	
+	#registry-box {
+	    text-align: center; 
+	    margin: auto; 
+	    max-width: 80%;  
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 2.0em; 
+	    background-color: rgba(247, 247, 247, 0.5);	 	
+	}
+	
+	#rsvp-box {
+	    text-align: center; 
+	    margin: auto; 
+	    max-width: 80%; 
+	    padding-left: 4.0em; 
+	    padding-right: 4.0em; 
+	    padding-top: 2.0em;
+	    padding-bottom: 2.0em; 
+	    background-color: rgba(247, 247, 247, 0.5);
+	}
+	
+		
+	#return-to-top a{
+	    display: block;
+    	    color: white;
+   	    text-align: center;
+    	    padding: 14px 16px;
+    	    text-decoration: none;
+    	    width: 100px;
+    	    margin: auto; 
+	}
+	
+	#return-to-top a:hover {
+    	    background-color: rgb(237,185,46);  
+	}
+	
+	.quote {
+	    color: black;	    
+	}
+	
+	.author {
+	    font-family: 'Open Sans', sans-serif;
+	    font-style: italic; 
+	    color: black;
+	}
+	.drive {
+	     color: black;
+	     text-decoration: underline; 
+	}
+	}
+	
+	
+ media screen and (max-width:480px) {
+  /* CSS for screens that are 480 pixels or less will be put in this section */
+       body {
+            background-image: url(http://r1.ilikewallpaper.net/iphone-8-wallpapers/download/30507/Reflection-Lake-Blue-Mountain-Water-River-Bw-White-iphone-8-wallpaper-ilikewallpaper_com.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-color: rgba(128, 128, 128, 0.10);
+        }
+        
+        
+                    
+        h1 {
+           font-family: 'Dancing Script', sans-serif; 
+           color: rgb(0, 230, 184);
+           text-align: center;
+       }
+       
+       h2 {
+	    font-family: 'Open Sans', sans-serif;
+	    color: gray; 
+	    text-align: center; 
+	    border-bottom: 1px solid gray;
+       }
+	    
+       h3 { 
+	    font-family: 'Open Sans', sans-serif;
+	    color: rgb(0, 230, 184);
+       }
+	           
+       h4 {
+	    font-family: 'Raleway', sans-serif;
+	 }
+	 
+	h5 {
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+	
+	p {
+	    font-family: 'Open Sans', sans-serif;
+	}
+	
+	thead {
+	    font-family: 'Raleway', sans-serif;
+	}
+	
+	tbody {
+	    font-family: 'Open Sans', sans-serif;
+	}
+       
+       
+        
+       #nav-mobile {
+           text-align: center;
+       }
+       
+       ul { 
+           list-style-type: none;
+           display: inline-block; 
+           text-align: left; 
+       }
+       
+       li a {
+	    display: block;
+    	    color: gray;
+   	    text-align: left;
+    	    padding: .10em .10em;
+    	    text-decoration: none;
+	}
+      
+       #intro-pic1 {
+	     width: 30%;
+	     margin-left: 1em;
+	     margin-bottom: 3em;
+	     	                
+	 }
+	
+	#intro-pic2 {
+	     width: 30%
+	     	     
+	}
+	
+	#intro-pic3 {
+	     width: 30%;
+	     margin-bottom: 3em;   
+       }
+       
+       #intro-box h2 {
+	    font-family: 'Dancing Script', sans-serif;
+	    font-size: 1.25em; 
+	    color: rgb(237,185,46);
+	    text-align: center; 
+	}
+	
+       .welcome-text {
+	    color: gray;
+	    text-align: center;
+	    font-size: 1em;   
+	}
+	
+	#map {
+	    display: none; 
+	}
+	
+	#map_after {
+	    display: none;
+	}
+	
+	.quote {
+	    display: none; 
+	}
+	
+	.author {
+	    display: none;
+	 }
+	 
+	 #return-to-top a{
+	    display: block;
+    	    color: rgb(237,185,46);
+   	    text-align: center;
+    	    padding: 14px 16px;
+    	    text-decoration: none;
+    	    width: 100px;
+    	    margin: auto; 
+	}
+	
+	#schedule {
+	    background-color: rgba(128, 128, 128, 0.60);
+	}
+       
+       
+        }

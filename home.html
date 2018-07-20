@@ -4,12 +4,13 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Sam and Kat</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--<link rel="stylesheet" href="styles.css">-->
-	
+    <!--<link rel="stylesheet" type="text/css" href="/styles.css"> -->
+        	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Raleway|Dancing+Script" rel="stylesheet">
-	
-	<style type="text/css">
-	body {
+
+<style type="text/css">
+@media screen and (min-width:481px) {	  
+       	body {
 	    background-image: url(https://i.pinimg.com/736x/0f/30/ac/0f30acb683ad19fee08199483fb0367e--winter-nature-photography-mountain-photography.jpg);
 	    background-repeat: no-repeat;
 	    background-position: center top;
@@ -20,9 +21,9 @@
 	h1 {
 	    font-family: 'Dancing Script', sans-serif;
 	    font-size: 4.5em;
-	    color: rgb(0,153,137);
+	    color: rgb(0, 230, 184);
 	    text-align: center; 
-	}
+	   }
 	
 	h2 {
 	    font-family: 'Open Sans', sans-serif;
@@ -34,7 +35,7 @@
 	
 	h3 { 
 	    font-family: 'Open Sans', sans-serif;
-	    color: rgb(0,153,137);
+	    color: white;
 	}
 	
 	h4 {
@@ -53,10 +54,12 @@
 	    font-family: 'Open Sans', sans-serif;
 	}
 	
+	
 	thead {
 	    font-family: 'Raleway', sans-serif;
 	}
 	
+		
 	tbody {
 	    font-family: 'Open Sans', sans-serif; 
 	}
@@ -74,7 +77,7 @@
 	#intro-box h2 {
 	    font-family: 'Dancing Script', sans-serif;
 	    font-size: 36px;
-	    color: rgb(0,153,137);
+	    color: rgb(0, 230, 184);
 	    text-align: center; 
 	}
 	
@@ -84,18 +87,34 @@
 	    font-size: 24px;   
 	}
 	
-	#intro-pic {
-	     display: block; 
-	     width: 60%;
-	     margin: auto;
+	#intro-pic1 {
+	     width: 30%;
+	     margin-left: 4.0em; 
+	     margin-right: 0;
+	     margin-top: 0;
+	     margin-bottom: 9.0em;	           
+	 }
+	
+	#intro-pic2 {
+	     width: 30%; 
+	     margin-left: 1.0em;    
+	     margin-right: 1.0em;  
+	}
+	
+	#intro-pic3 {
+	     width: 30%; 
+	     margin-right: 2.0em; 
+	     margin-right: 0;
+	     margin-top: 0;
+	     margin-bottom: 9.0em;
 	}
 	
 	ul {
     	    list-style-type: none;
     	    margin-top: 0; 
     	    margin-bottom: 0;
-    	    margin-left: 17.188em;
-    	    margin-right: 6.250em;
+    	    margin-left: 10em;
+    	    margin-right: 5em;
     	    padding: 0;
     	    overflow: hidden;
     	}
@@ -139,7 +158,14 @@
 	#map {
 	    float: right;
 	    border: 1px solid white;  
-	    padding: 1em; 
+	    padding: 1em; 	    
+	}
+	
+	#map_after {
+	     width: 33%;
+	     margin: auto; 
+	     border: 1px solid white;
+	     padding: 1.0em;
 	}
 	
 	#location {
@@ -175,7 +201,7 @@
 	}
 	
 	th{
-	    color: rgb(0,153,137);
+	    color: rgb(0,230,184);
 	}
 	
 	td{
@@ -272,11 +298,145 @@
 	    font-style: italic; 
 	    color: black;
 	}
+	.drive {
+	     color: black;
+	     text-decoration: underline; 
+	}
+	}
 	
 	
+      @media screen and (max-width:480px) {
+  /* CSS for screens that are 480 pixels or less will be put in this section */
+       body {
+            background-image: url(http://r1.ilikewallpaper.net/iphone-8-wallpapers/download/30507/Reflection-Lake-Blue-Mountain-Water-River-Bw-White-iphone-8-wallpaper-ilikewallpaper_com.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-color: rgba(128, 128, 128, 0.10);
+        }
+        
+        
+                    
+        h1 {
+           font-family: 'Dancing Script', sans-serif; 
+           color: rgb(0, 230, 184);
+           text-align: center;
+       }
+       
+       h2 {
+	    font-family: 'Open Sans', sans-serif;
+	    color: gray; 
+	    text-align: center; 
+	    border-bottom: 1px solid gray;
+       }
+	    
+       h3 { 
+	    font-family: 'Open Sans', sans-serif;
+	    color: rgb(0, 230, 184);
+       }
+	           
+       h4 {
+	    font-family: 'Raleway', sans-serif;
+	 }
+	 
+	h5 {
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
 	
-	</style>
+	p {
+	    font-family: 'Open Sans', sans-serif;
+	}
 	
+	thead {
+	    font-family: 'Raleway', sans-serif;
+	}
+	
+	tbody {
+	    font-family: 'Open Sans', sans-serif;
+	}
+       
+       
+        
+       #nav-mobile {
+           text-align: center;
+       }
+       
+       ul { 
+           list-style-type: none;
+           display: inline-block; 
+           text-align: left; 
+       }
+       
+       li a {
+	    display: block;
+    	    color: gray;
+   	    text-align: left;
+    	    padding: .10em .10em;
+    	    text-decoration: none;
+	}
+      
+       #intro-pic1 {
+	     width: 30%;
+	     margin-left: 1em;
+	     margin-bottom: 3em;
+	     	                
+	 }
+	
+	#intro-pic2 {
+	     width: 30%
+	     	     
+	}
+	
+	#intro-pic3 {
+	     width: 30%;
+	     margin-bottom: 3em;   
+       }
+       
+       #intro-box h2 {
+	    font-family: 'Dancing Script', sans-serif;
+	    font-size: 1.25em; 
+	    color: rgb(237,185,46);
+	    text-align: center; 
+	}
+	
+       .welcome-text {
+	    color: gray;
+	    text-align: center;
+	    font-size: 1em;   
+	}
+	
+	#map {
+	    display: none; 
+	}
+	
+	#map_after {
+	    display: none;
+	}
+	
+	.quote {
+	    display: none; 
+	}
+	
+	.author {
+	    display: none;
+	 }
+	 
+	 #return-to-top a{
+	    display: block;
+    	    color: rgb(237,185,46);
+   	    text-align: center;
+    	    padding: 14px 16px;
+    	    text-decoration: none;
+    	    width: 100px;
+    	    margin: auto; 
+	}
+	
+	#schedule {
+	    background-color: rgba(128, 128, 128, 0.60);
+	}
+       
+       
+        }
+</style>
 	
 	
 </head>
@@ -284,6 +444,7 @@
 <body>
 	<h1>Sam and Katlyn's Wedding</h1>
 	
+	<div id="nav-mobile">
 	<ul id="navigation">
 		<li><a href="#wedding-details">Wedding Details</a></li>
 		<li><a href="#event-schedule">Event Schedule</a></li>
@@ -292,20 +453,22 @@
 		<li><a href="#travel-transport">Travel and Transport</a></li>
 		<li><a href="#registry">Registry</a></li>
 		<li><a href="#rsvp">RSVP</a></li>
-		<!-- <li>Our Story</li>
-		<li>Pictures</li> -->
+		<li><a href="/pictures.html">Pictures</a></li>
+		<li><a href="/music.php">Song Requests</a></li>
+		
 	</ul>
+	</div>
 	
 	<h2 class="quote" id="calling">The Mountains are Calling and I must Go!</h2>
 	<h4 class="author" id="muir">- John Muir</h4>
 	
-	<img id="intro-pic" src="https://lh3.googleusercontent.com/wJm9bLcN8JqenEKD2FLgqxD7UGI2BRyylckSzJ0UQFyYyswQqL3GpSlqmrkGgvNF11jrA7seukuEhrs2Zs9uATjfUyS9qxwwgApOB3TnQTs6yBg_KmsdC5kADjSTPc0bAydEA480k9-VgI7eF70LCtI6kPFNzsK40nkowz4WpyzM0o8lkOFQCE8dC8oBxNE1XX49QF1gZ5GZqQEJxcA_3pBvEbo0O8mLrq69bJW0J1absE6aFQSPN85HTejiDgDWyrE_hHVWUJQ6Gj5jwtO3_VgNOisUjkIB3A_pmeFt4wXhy23Kryoenkqm_SdFE028LUqzV2GXLd8TNexWfDhNtaVMutH-9
-	JTJ0Abl0lpCbxxr5vh2JHhlz6duJcLBTM-z9mkjQ8f_P-lNVgNpy0Egah59wE_jzBVBtaISq-9SY5mrX5fM0D30Web8HcXr2RUqfJhlKVmg0XzB1GYTvHLjdzRPcYAO6x4upd347NxOEgYLdGkdw8TPKOSp31k6HPa3P8QDnl2qNogeN1_pLLTj7HCpbALfZMtfdlpfTKQxA4umufmLZUOns3liMrBc0ffXhZRzivsKqRjVCSNT5dWpBhHJbxO7dzO89WIWOvg=w1265-h949-no" alt="a picture of Sam and Katlyn touching faces on a mountain top">
+	<img id="intro-pic1" alt="Sam's hands with ring and climbing gear" src="/engagementclimb14.jpg">
+	<img id="intro-pic2" alt="Sam and Katlyn" src="/engagementclimb12.jpg">
+	<img id="intro-pic3" alt="Katlyn's hands with ring and rope" src="/engagementclimb10.jpg">
 	
-
-	
+		
 	<div id="intro-box">
-	<h2>Grand Lake, CO </br> September 7, 2018</h1>
+	<h2>Grand Lake, CO </br>Elevation: 8,369′ </br>September 7, 2018</h1>
 	<h4 class="welcome-text">Samantha Chen and Katlyn Leight invite you to join them on an adventure to honor their love and commitment to each other with a rustic celebration in the mountains of Colorado!</h3>
 	</div>
 
@@ -320,9 +483,9 @@
 
 	<p>Friday, September 7, 2018</p>
 
-	<p>Ceremony: TBD p.m. MDT</p>
+	<p>Ceremony: 3:30 p.m. MDT</p>
 
-	<p>Reception: TBD p.m. - TBD p.m. MDT</p>
+	<p>Reception: 4:00 p.m. - 8:30 p.m. MDT</p>
 	</div>
 	
 	<div id="map">
@@ -346,7 +509,7 @@
 
 	<p>Because parking on site is very limited and ride shares are in short supply in Grand Lake, we have arranged a shuttle for our guests to and from the event.</p>
 
-	<p>The shuttle will pick up and drop off from (location TBD).</p>
+	<p>The shuttle will pick up and drop off from the Juniper Library Parking Lot (Garfield Street and Park Ave) in Grand Lake.</p>
 
 	<p>The shuttle schedule is as follows:</p>
 	<p>Pre-Ceremony:</P>
@@ -354,28 +517,6 @@
 	<p>Post-Ceremony:</p>
 	<p>8:00 p.m. MDT and 8:30 p.m. MDT</p>
 	</div>
-
-	<!-- <table>
-		<thead>
-			<tr>
-				<th></th>
-				<th>First Shuttle</th>
-				<th>Second Shuttle</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Pre-Ceremony</td>
-				<td>2:00 p.m. MDT</td>
-				<td>2:30 p.m. MDT</td>
-			</tr>
-			<tr>
-				<td>Post-Ceremony</td>
-				<td>8:00 p.m. MDT</td>
-				<td>8:30 p.m. MDT</td>
-			</tr>
-		</tbody>
-	</table> -->
 
 	
 	<div id="attire">
@@ -465,7 +606,9 @@
 
 	<p>9:00 p.m.</p>
 	
+	<div id="map_after">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.089862233155!2d-105.82255728433263!3d40.25153417359325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8769819983dbc2cd%3A0x15631ba515ee70e6!2sEl+Pacifico!5e0!3m2!1sen!2sus!4v1509226768976" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 
 	<p>El Pacifico<br />
 	920 Grand Ave<br />
@@ -478,9 +621,9 @@
 	<h4 class="quote">“Again, it was proposed that we should go up the mountains and make our camps there.” </h4>
 	<h5 class="author">- Theodore Roosevelt, The Rough Riders</h5>
 
-	<p>There are a variety of lodging options available in Grand Lake and Grandby. If you plan to drink, we recommend you try to find a location close to the shuttle pick up/drop off site or arrange a taxi in advance, as ride-share options are limited.</p>
+	<p>There are a variety of lodging options available in Grand Lake and Grandby. If you plan to drink, we recommend you try to find a location close to the shuttle pick up/drop off site (Juniper Library Parking Lot in Grand Lake) or arrange a taxi in advance, as ride-share options are limited.</p>
 
-	<p>We recommend explore your options via the Grand Lake Chamber of Commerce Lodging site <a href="http://grandlakechamber.com/lodging/" target="_blank">here</a>, or look at bookings available via <a href="https://www.airbnb.com/" target="_blank">Airbnb</a> and <a href="https://www.vrbo.com/" target="_blank">VRBO</a>.</p>
+	<p>We recommend exploring your options via the Grand Lake Chamber of Commerce Lodging site <a href="http://grandlakechamber.com/lodging/" target="_blank">here</a>, or looking at bookings available via <a href="https://www.airbnb.com/" target="_blank">Airbnb</a> and <a href="https://www.vrbo.com/" target="_blank">VRBO</a>.</p>
 	</div>
 	
 	
@@ -492,11 +635,11 @@
 
 	<h3>Driving:</h3>
 
-	<p>From Denver by way of eastern Grand County</p>
+	<p class="drive">From Denver by way of eastern Grand County</p>
 
 	<p>US Highway 40 from I-70 west, cross the Continental Divide over Berthoud Pass to enter through Winter Park and Fraser Valley.</p>
 
-	<p>From Denver by way of western Grand County</p>
+	<p class="drive">From Denver by way of western Grand County</p>
 
 	<p>I-70 west to Silverthorne, go 38 miles north on Highway 9 to enter through Kremmling.</p>
 
@@ -511,6 +654,11 @@
 	<h3>Taxi Service in Grand County:</h3>
 
 	<p>Valley Taxi is is a local taxi service in Winter Park, Fraser and throughout Grand County. It is recommended you make reservations at least 24 hours in advance. You can find out more information <a href="http://www.valleytaxiinc.com/" target="_blank">here</a></p>
+	
+	<h3>Uber and Lyft:</h3>
+	
+	<p>Uber and Lyft are in short supply in Grand County. If you plan to drink, we suggest you find lodging near the shuttle pick drop off location, or call Valley Taxi to arrange a taxi in advance.</p>
+	
 	</div>
 	
 	<div id="registry-box">
@@ -519,7 +667,9 @@
 	<h4 class="quote">“Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.”</h4>
 	<h5 class="author">- John Muir, The Mountains of California</h5>
 	
-	<p>Info coming soon!</p>
+	<h3>Hóngbāo</h3>
+	
+	<p>We will not be setting up a registry for our wedding. Instead, we will welcome monetary gifts <a href="https://www.theknot.com/content/giving-money" target="_blank">(hóngbāo)</a>, as practiced in Taiwanese culture.</p>
 	</div>
 	
 	<div id="rsvp-box">
@@ -528,13 +678,17 @@
 	<h4 class="quote">“That’s what mountains do, they taunt you, lure you to the freedom of the wilderness, and it is fucking exhilarating.”</h4>
 	<h5 class="author">- Shannon Mullen, See What Flowers</h5>
 	
-	<p>Info coming soon!</p>
+	<p><b>RSVPs are due via your electronic invitation by Friday, June 29, 2018</b></p>
+	<p>Please note, invited guests are included by name on the invitation.</p>
+	<p>If you have questions, please contact Katlyn at leightkt at gmail dot com.</p>
+	
+	<p>In order to allow all guests, including parents, an evening of relaxation we have chosen for our wedding day to be an adult only occasion. We hope this advance notice means you are still able to share our big day and will enjoy having the evening off!</p>
 	
 	<h3 id="return-to-top"><a href="#navigation">Back to the summit!</a></h3>
 	</div>
 	
 		
-	<ul id="navigation">
+	<!-- <ul id="navigation">
 		<li><a href="#wedding-details">Wedding Details</a></li>
 		<li><a href="#event-schedule">Event Schedule</a></li>
 		<li><a href="#after-party">After Party</a></li>
@@ -542,9 +696,9 @@
 		<li><a href="#travel-transport">Travel and Transport</a></li>
 		<li><a href="#registry">Registry</a></li>
 		<li><a href="#rsvp">RSVP</a></li>
-		<!-- <li>Our Story</li>
-		<li>Pictures</li> -->
-	</ul>
+		<li><a href="/pictures.html">Pictures</a></li>
+		<li><a href="/music.php">Song Requests</a></li>
+	</ul> -->
 
 </body>
 </html>
