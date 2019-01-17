@@ -4,7 +4,7 @@
 
 	if ( isset($_POST['cancel'] ) ) {
     // Redirect the browser to index.php
-    header("Location: home.html");
+    header("Location: index.html");
     return;
 }
 
@@ -332,7 +332,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 
 
 
-<h3 id="back"><a href="home.html">Back to the Base Camp!</a></h3>
+<h3 id="back"><a href="index.html">Back to the Base Camp!</a></h3>
 
 
 </body>
